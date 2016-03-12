@@ -6,13 +6,13 @@ using namespace std;
 
 int main()
 {
-    float x, y;
-    int n;
+    float x, y, n;
+    
     printf("Vvediti x : ");
     scanf("%f", &x);
     
     printf("Vvediti n :  ");
-    scanf("%d", &n);  
+    scanf("%f", &n);  
    
     y=x*x+3*n;
     printf("y=%f", y);
