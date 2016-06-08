@@ -5,12 +5,12 @@
 int main(int argc, char *argv[])
 {
   int a,b,x;
-
+  printf?("Rivnynny a*x+b=0");
   printf("a = ");
   scanf("%d", &a);
   printf("\nb = ");
   scanf("%d", &b);
-  a*x+b==0;
+  x=-b/a;
   printf("%d", x);
   
   system("PAUSE");	
